@@ -5,6 +5,6 @@ class Api::V1::TodosController < InheritedResources::Base
   private
 
   def permitted_params
-    params.permit(todo: [:title, :isCompleted])
+    params.permit(todo: [:title, :is_completed])
   end
 end

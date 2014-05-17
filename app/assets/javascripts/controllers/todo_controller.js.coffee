@@ -5,7 +5,7 @@ Todos.TodoController = Ember.ObjectController.extend(
       model.get "isCompleted"
     else
       model.set "isCompleted", value
-      model.save
+      model.save()
       value
   ).property("model.isCompleted")
   actions:
