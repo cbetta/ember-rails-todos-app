@@ -30,6 +30,7 @@ gem 'inherited_resources'
 
 gem 'ember-rails'
 gem 'ember-source', '~> 1.5'
+gem 'rack-cors'
 
 
 # Use ActiveModel has_secure_password
